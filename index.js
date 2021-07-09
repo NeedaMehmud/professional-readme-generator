@@ -3,15 +3,16 @@ const fs = require('fs');
 
 const generateREADME = (userInput) => {
     return `# ${userInput.projectTitle}
-    
- ## [Description](#project-description)
+ 
+  ## [Description](#description)
 
-  #### Table of Contents
-  1. [Installation](#installation-instructions)
-  2. [Usage](#usage-information)
+  
+  #### Table of Contents:
+  1. [Installation](#installation)
+  2. [Usage](#usage)
   3. [License](#license)
-  4. [Contributing](#contributor-guidelines)
-  5. [Tests](#test-instructions)
+  4. [Contributing](#contributions)
+  5. [Tests](#test)
   6. [Questions](#questions)
 
   ## Description
@@ -46,7 +47,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "project_title",
+        name: "projectTitle",
         message: "What is your project name?"
     },
     {
@@ -80,7 +81,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "test",
+        name: "use",
         message: "What does the user need to know about using the repo?"
     },
     {
