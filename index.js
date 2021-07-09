@@ -3,10 +3,12 @@ const fs = require('fs');
 
 const generateREADME = (userInput) => {
     return `# ${userInput.projectTitle}
- 
+    
+![License: ${userInput.license}](https://img.shields.io/badge/License-${userInput.license}-yellow.svg)
+
   ## [Description](#description)
 
-  
+
   #### Table of Contents:
   1. [Installation](#installation)
   2. [Usage](#usage)
@@ -22,7 +24,7 @@ const generateREADME = (userInput) => {
   ## Usage 
   * ${userInput.use}
   ## License
-  * This project is licensed under the ${userInput.license}
+  * This project is licensed under the ![${userInput.license}] license.
   ## Contributing
   * ${userInput.contributions}
   ## Tests
@@ -60,10 +62,10 @@ inquirer.prompt([
         message: "What kind of license should your project have?",
         name: "license",
         choices: [
-            "MIT License",
-            "APACHE 2.0 License",
-            "GPL 3.0 License",
-            "BSD 3 License",
+            "MIT",
+            "Apache%202.0",
+            "GPLv3",
+            "BSD-3-Clause",
             "None",
         ],
     },
