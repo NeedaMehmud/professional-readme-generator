@@ -44,11 +44,10 @@
 
 ### Screenshots and Link to Video
 
-![Video Demonstration](readme-screenshot.png)
+![image](markdown-preview.png)
 
-Link: 
+Link:
 
-https://drive.google.com/file/d/1pr6lIrCmy6QCAAU0Z17kItBEYNZOwe12/view 
+https://drive.google.com/file/d/1pr6lIrCmy6QCAAU0Z17kItBEYNZOwe12/view
 
 ![Gif](professional-readme-generator.gif)
-
