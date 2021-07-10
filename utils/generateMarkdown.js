@@ -56,15 +56,14 @@ const generateMarkdown = (userInput) => {
 
 # ${renderLicenseBadge(userInput.license[0])}
 
-## [Description](#description)
-
 #### Table of Contents:
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [License](#license)
-4. [Contribution](#contributions)
-5. [Tests](#test)
-6. [Questions](#questions)
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contribution](#contributions)
+6. [Tests](#test)
+7. [Questions](#questions)
 
 ## Description
 * ${userInput.description}
