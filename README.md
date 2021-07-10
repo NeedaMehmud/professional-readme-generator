@@ -1,31 +1,31 @@
-# afasdf
-    
-![License: ](https://img.shields.io/badge/License--yellow.svg)
+# sadf  
 
-  ## [Description](#description)
+# ![License: BSD-3](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)
 
+## [Description](#description)
 
-  #### Table of Contents:
-  1. [Installation](#installation)
-  2. [Usage](#usage)
-  3. [License](#license)
-  4. [Contributing](#contributions)
-  5. [Tests](#test)
-  6. [Questions](#questions)
+#### Table of Contents:
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributions)
+5. [Tests](#test)
+6. [Questions](#questions)
 
-  ## Description
-  * asdf
-  ## Installation
-  * To install necessary dependencies, run the following command: undefined
-  ## Usage 
-  * sdf
-  ## License
-  * This project is licensed under the ![] license.
-  ## Contributing
-  * asdf
-  ## Tests
-  * To run test, run the following command: asdf
-  
-  ## Questions
-  * If you have any questions about the rep, open an issue or contact me directly at  asf
-  * You can find more of my work at [asfd](http://github.com/asfd)
+## Description
+* sfd
+## Installation
+* To install necessary dependencies, run the following command: undefined
+## Usage 
+* 
+## License
+* This project is licensed under the ![## License 
+ [BSD-3-Clause](https://choosealicense.com/licenses/bsd-3-clause-clear/)] 
+## Contributing
+* 
+## Tests
+* To run test, run the following command: adf
+
+## Questions
+* If you have any questions about the rep, open an issue or contact me directly at  asdf(mailto:asdf)
+* You can find more of my work at [sf](http://github.com/sf)
