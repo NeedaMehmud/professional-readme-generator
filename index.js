@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
-
+//prompt questions for user to anwser.
 inquirer.prompt([
     {
         type: "input",
@@ -44,7 +44,8 @@ inquirer.prompt([
     {
         type: "input",
         name: "test",
-        message: "What command should be run to run tests?"
+        message: "What command should be run to run tests?",
+        default: 'npm test',
 
     },
     {
@@ -57,7 +58,7 @@ inquirer.prompt([
         name: "contributions",
         message: "What does the user need to know about contributing to the repo?"
     },
-])
+])  //generate readme after user submits their answers
     .then((userInput) => {
         const readmeContent = generateMarkdown.generateMarkdown(userInput);
 

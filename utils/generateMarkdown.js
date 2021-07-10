@@ -14,6 +14,9 @@ let renderLicenseBadge = (license) => {
     case 'BSD-3-Clause':
       return '![License: BSD-3](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)';
 
+    case 'GPLv3':
+      return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-yellow.svg)]';
+
     default:
       return '';
   }
@@ -39,10 +42,13 @@ let renderLicenseSection = (license) => {
       return 'License \n [MIT](https://choosealicense.com/licenses/mit/)';
 
     case 'Apache 2.0':
-      return '## License \n [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)';
+      return 'License \n [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)';
 
     case 'BSD-3-Clause':
       return 'License \n [BSD-3-Clause](https://choosealicense.com/licenses/bsd-3-clause-clear/)';
+
+    case 'GPLv3':
+      return 'License \n [GPLv3](https://www.gnu.org/licenses/gpl-3.0)'
     default:
       return '';
   }
@@ -60,7 +66,7 @@ const generateMarkdown = (userInput) => {
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [License](#license)
-4. [Contributing](#contributions)
+4. [Contribution](#contributions)
 5. [Tests](#test)
 6. [Questions](#questions)
 
@@ -72,14 +78,14 @@ const generateMarkdown = (userInput) => {
 * ${userInput.use}
 ## License
 * This project is licensed under the ${renderLicenseSection(userInput.license[0])} 
-## Contributing
+## Contribution
 * ${userInput.contributions}
 ## Tests
 * To run test, run the following command: ${userInput.test}
 
 ## Questions
-* If you have any questions about the rep, open an issue or contact me directly at  ${userInput.email}(mailto:${userInput.email})
-* You can find more of my work at [${userInput.github}](http://github.com/${userInput.github})`;
+* If you have any questions about the rep, open an issue or contact me directly at <a${userInput.email}></a>
+* You can find more of my work on Github [${userInput.github}](http://github.com/${userInput.github})`;
 }
 
 
