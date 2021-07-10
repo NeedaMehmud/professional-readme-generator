@@ -52,8 +52,9 @@ let renderLicenseSection = (license) => {
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (userInput) => {
-  return `# ${userInput.projectTitle}  
-
+  // console.log(userInput.dependencies);
+  return `# ${userInput.projectTitle} 
+   
 # ${renderLicenseBadge(userInput.license[0])}
 
 #### Table of Contents:
@@ -68,7 +69,7 @@ const generateMarkdown = (userInput) => {
 ### Description
 * ${userInput.description}
 ### Installation
-* To install necessary dependencies, run the following command: ${userInput.install}
+* To install necessary dependencies, run the following command: ${userInput.dependencies}
 ### Usage 
 * ${userInput.use}
 ### License
