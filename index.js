@@ -1,7 +1,8 @@
+// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
-//prompt questions for user to anwser.
+// TODO: Create an array of questions for user input
 inquirer.prompt([
     {
         type: "input",
@@ -38,15 +39,14 @@ inquirer.prompt([
     {
         type: "input",
         name: "dependencies",
-        message: "What command should be run to install the dependencies?"
-
+        message: "What command should be run to install the dependencies?",
+        default: 'npm i',
     },
     {
         type: "input",
         name: "test",
         message: "What command should be run to run tests?",
         default: 'npm test',
-
     },
     {
         type: "input",
@@ -58,13 +58,12 @@ inquirer.prompt([
         name: "contributions",
         message: "What does the user need to know about contributing to the repo?"
     },
-])  //generate readme after user submits their answers
+])  // TODO: Create a function to write README file
     .then((userInput) => {
         const readmeContent = generateMarkdown.generateMarkdown(userInput);
 
         fs.writeFile('README.md', readmeContent, (err) =>
             err ? console.log(err) : console.log('YAY! you have created a README.md!'));
     });
-;
 
 
