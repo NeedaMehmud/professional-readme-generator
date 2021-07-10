@@ -65,17 +65,17 @@ const generateMarkdown = (userInput) => {
 6. [Tests](#test)
 7. [Questions](#questions)
 
-## Description
+### Description
 * ${userInput.description}
-## Installation
+### Installation
 * To install necessary dependencies, run the following command: ${userInput.install}
-## Usage 
+### Usage 
 * ${userInput.use}
-## License
+### License
 * This project is licensed under the ${renderLicenseSection(userInput.license[0])} 
-## Contribution
+### Contribution
 * ${userInput.contributions}
-## Tests
+### Tests
 * To run test, run the following command: ${userInput.test}
 
 ## Questions
