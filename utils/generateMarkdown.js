@@ -62,8 +62,8 @@ const generateMarkdown = (userInput) => {
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [License](#license)
-5. [Contribution](#contributions)
-6. [Tests](#test)
+5. [Contribution](#contribution)
+6. [Tests](#tests)
 7. [Questions](#questions)
 
 ### Description
@@ -75,7 +75,7 @@ const generateMarkdown = (userInput) => {
 ### License
 * This project is licensed under the ${renderLicenseSection(userInput.license[0])} 
 ### Contribution
-* ${userInput.contributions}
+* ${userInput.contribution}
 ### Tests
 * To run test, run the following command: ${userInput.test}
 
