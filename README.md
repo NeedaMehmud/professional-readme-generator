@@ -31,7 +31,7 @@
 
 ### Contribution
 
-- undefined
+- be kind! 
 
 ### Tests
 

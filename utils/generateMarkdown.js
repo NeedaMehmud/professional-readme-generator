@@ -81,7 +81,7 @@ const generateMarkdown = (userInput) => {
 
 ## Questions
 * If you have any questions about the rep, open an issue or contact me directly at <a${userInput.email}></a>
-* You can find more of my work on Github [${userInput.github}](http://github.com/${userInput.github})`;
+* You can find more of my work on Github :octocat: [${userInput.github}](http://github.com/${userInput.github})`;
 }
 
 
