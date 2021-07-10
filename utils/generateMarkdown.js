@@ -42,7 +42,7 @@ let renderLicenseSection = (license) => {
       return '## License \n [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)';
 
     case 'BSD-3-Clause':
-      return '## License \n [BSD-3-Clause](https://choosealicense.com/licenses/bsd-3-clause-clear/)';
+      return 'License \n [BSD-3-Clause](https://choosealicense.com/licenses/bsd-3-clause-clear/)';
     default:
       return '';
   }
@@ -71,7 +71,7 @@ const generateMarkdown = (userInput) => {
 ## Usage 
 * ${userInput.use}
 ## License
-* This project is licensed under the ${renderLicenseSection(userInput.license[0])}] 
+* This project is licensed under the ${renderLicenseSection(userInput.license[0])} 
 ## Contributing
 * ${userInput.contributions}
 ## Tests
